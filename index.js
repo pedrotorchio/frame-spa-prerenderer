@@ -14,10 +14,6 @@ module.exports = class BlockAllRequestsRenderer extends PuppeteerRenderer {
 
         return isException
     }
-    // async renderRoutes (routes, Prerenderer) {
-    //     console.log('');
-    //     super.renderRoutes(routes, Prerenderer);
-    // }
     async handleRequestInterception (page, baseURL) {
         await page.setRequestInterception(true)
         
