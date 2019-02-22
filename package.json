@@ -1,6 +1,6 @@
 {
   "name": "frame-spa-prerenderer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Renderer for prerender-spa-plugin that blocks all request to async components, leaving only a synchronous frame",
   "main": "index.js",
   "scripts": {
