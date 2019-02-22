@@ -5,6 +5,10 @@ The idea is to block every request for new components so it will only prerender 
 
 It's in ES6
 
+```
+npm i frame-spa-prerenderer --save-dev
+```
+
 ## Example with VueJs
 ### vue.config.js
 
