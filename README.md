@@ -41,6 +41,7 @@ module.exports = {
                 },
                 // DEFINE FILES TO BE INITIALLY INCLUDED (INITIAL BUNDLES)
                 // EVERYTHING ELSE WILL BE BLOCKED
+                // CAN BE DEFINED BOTH IN REGEX AND PLAIN STRING
                 renderer: new BlockAllRequestsRenderer({ 
                     acceptExceptions: [
                         /\/js\/app(.*).js/,
