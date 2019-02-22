@@ -1,0 +1,34 @@
+{
+  "name": "frame-spa-prerenderer",
+  "version": "1.0.0",
+  "description": "Renderer for prerender-spa-plugin that blocks all request to async components, leaving only a synchronous frame",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrotorchio/frame-spa-prerenderer.git"
+  },
+  "keywords": [
+    "prerenderer",
+    "renderer",
+    "prerender",
+    "spa",
+    "frame",
+    "requests",
+    "block",
+    "vue",
+    "react",
+    "angular"
+  ],
+  "author": "pedrotorchio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrotorchio/frame-spa-prerenderer/issues"
+  },
+  "homepage": "https://github.com/pedrotorchio/frame-spa-prerenderer#readme",
+  "dependencies": {
+    "prerender-spa-plugin": "^3.4.0"
+  }
+}
